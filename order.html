@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend><b>Personal Info</b></legend>
+        <input type="radio" name="gjinia" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gjinia" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="ditelendja">Birthday</label>
+        <br><br>
+        <input type="date" id="ditelindja" name="ditelindja">
+    </fieldset>
+    <fieldset>
+        <legend><b>Order</b></legend>
+        <label for="lloji i embelsise">Categories</label>
+        <br><br>
+        <select name="lloji i embelsise" id="categories">
+            <option value="pumpkin cheesecake">Pumpkin Cheesecake</option>
+            <option value="chocolate cheesecake">Chocolate Cheesecake</option>
+            <option value="strawberry cheesecake">Strawberry Cheesecake</option>
+        </select>
+            <br><br>
+            <label for="madhesia"><b>Size</b></label>
+            <br><br>
+        <input type="checkbox" name="madhesia" id="30cm" value="30cm">
+        <label for="30cm">30cm</label>
+        <input type="checkbox" name="madhesia" id="40cm" value="40cm">
+        <label for="40cm">40cm</label>
+        <input type="checkbox" name="madhesia" id="50cm" value="50cm">
+        <label for="50cm">50cm</label>
+        </select>
+            <br><br>
+            <label for="pieces"><b>Pieces</b></label>
+            <br><br>
+        <input type="number" name="sasia" id="sasia" min="1" maxlength="10" value="1" required pattern="\d{2}" >
+        <br><br>
+        <label for="dita per porosine"><b>Set the date and time you want to order</b></label>
+        <br><br>
+        <input type="datetime-local"  name="data e porosise" required>
+        <br><br>
+        <input type="submit" value="Order">
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>
