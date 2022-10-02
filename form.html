@@ -5,11 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
+    <style>
+        *{background-color: antiquewhite;}
+        html, body {background-color: red; }
+        p{color: red; }
+        .th{align="center"}
+        p[class]:first-laetter {font-size: 50px;}
+        p.first::first-letter{font-size: 30px;}
+        a{color: red;}
+        #last { font-size: 10px;}
+        td > a{color: darkgray; }
+        td > ul {color: greenyellow;}
+        h3 + p {color: gold;}
+        h3 ~ p {color: navy;}
+        p[class]{font-size: 40px;}
+        p[class="first"]{font-size: 25px;}
+        h3[class~="h30"]{font-style: italic;}
+        h3[class^="h"]{color: hotpink;}
+        h3[class*="h3"]{background-color: brown;}
+        h3[class$="0"]{margin: 30px;}
+        li:nth-child(3) {background-color: blue;}
+        li:nth-child(4) {background-color: blue;}
+        a:hover{color: blue;}
+        h1::after{content: "!";}
+        h1::first-letter{font-size: 60px;}
+        .p-10{padding-left: 60px;}
+        .bl-20{border-left: 5px solid blue;}
+        .bgc {background-color: aliceblue;}
+    </style>
 </head>
 <body>
-    <table width="920" align="center">
+    <table width="920" align=center >
         <tr>
-            <th align="left"><h1>Cheesecake</h1></th>
+            <th  class="th"><h1>Cheesecake</h1></th>
         </tr>
         <tr>
             <td>Posted on <i>05.October.202/posted in"</i>/posted in <a href="https://www.thekitchn.com/how-to-make-perfect-cheesecake-recipe-cooking-lessons-from-the-kitchen-110760" target="_blank">Thekitchn</a></td>
@@ -27,13 +55,13 @@
         </tr>
         <tr>
             <td>
-                <p><b>Cheesecake</b> is a sweet dessert consisting of one or more layers. The main, and thickest, layer consists of a mixture of a soft, fresh cheese (typically cottage cheese, cream cheese or ricotta), eggs, and sugar. If there is a bottom layer, it most often consists of a crust or base made from crushed cookies (or digestive biscuits), graham crackers, pastry, or sometimes sponge cake.Cheesecake may be baked or unbaked</p>
+                <p class="first p-10 bl-20 bgc">Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest, layer consists of a mixture of a soft, fresh cheese (typically cottage cheese, cream cheese or ricotta), eggs, and sugar. If there is a bottom layer, it most often consists of a crust or base made from crushed cookies (or digestive biscuits), graham crackers, pastry, or sometimes sponge cake.Cheesecake may be baked or unbaked</p>
                 <br>
-                <p>An ancient form of cheesecake may have been a popular dish in ancient Greece even prior to Romans' adoption of it with the conquest of Greece. The earliest attested mention of a cheesecake is by the Greek physician Aegimus (5th century BCE), who wrote a book on the art of making cheesecakesThe earliest extant cheesecake recipes are found in Cato the Elder's De Agri Cultura, which includes recipes for three cakes for religious uses: libum, savillum and placenta.Of the three, placenta cake is the most like modern cheesecakes: having a crust that is separately prepared and baked</p>
+                <p id="last">An ancient form of cheesecake may have been a popular dish in ancient Greece even prior to Romans' adoption of it with the conquest of Greece. The earliest attested mention of a cheesecake is by the Greek physician Aegimus (5th century BCE), who wrote a book on the art of making cheesecakesThe earliest extant cheesecake recipes are found in Cato the Elder's De Agri Cultura, which includes recipes for three cakes for religious uses: libum, savillum and placenta.Of the three, placenta cake is the most like modern cheesecakes: having a crust that is separately prepared and baked</p>
             </td>
         </tr>
         <tr>
-            <th align="left"> <h3>Ingredients</h3></th>
+            <th align="left"> <h3 class="h30">Ingredients</h3></th>
         </tr>
         <tr>
             <td>
@@ -72,9 +100,9 @@
             <td>
                 <h3 align="center">CONTACT US</h3>
                 <p>Facebook - <a href="https://www.facebook.com/thekitchn" target="_blank">Thekitchn</a></p>
-                <p>Instagram - <a href="https://www.intagram.com/thekitchn">Thekitchn</a></p>
+                <p class="second">Instagram - <a href="https://www.intagram.com/thekitchn">Thekitchn</a></p>
                 <p>Location - </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11882.412481220792!2d21.462513994701496!3d41.87988466755141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541806241e56e1%3A0xdefaf9a0c7be84a2!2sGorno%20Kolichani!5e0!3m2!1sen!2smk!4v1664298975477!5m2!1sen!2smk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11882.412481220792!2d21.462513994701496!3d41.87988466755141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541806241e56e1%3A0xdefaf9a0c7be84a2!2sGorno%20Kolichani!5e0!3m2!1sen!2smk!4v1664298975477!5m2!1sen!2smk" width="600" height="450" style="border:0; loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </td>
         </tr>
     </table>
