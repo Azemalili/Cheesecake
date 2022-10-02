@@ -8,14 +8,22 @@
     <style>
         *{background-color: antiquewhite;}
         html, body {background-color: red; }
+        table {margin: 0px auto;}
+        @font-face {
+            font-family:Bungee Spice ;
+            src: url(./fonts/BungeeSpice-Regular.ttf);
+        }
+        h4{font-family: 'Bungee Spice', cursive; text-transform: uppercase; text-align: center;}
+        h1{text-shadow: 5px 8px 5px rgb(214, 22, 22)}
+        h4{text-align: center;}
+        .th{font-size: 40px;}
         p{color: red; }
-        .th{align="center"}
-        p[class]:first-laetter {font-size: 50px;}
+        p[class]::first-letter {font-size: 50px;}
         p.first::first-letter{font-size: 30px;}
         a{color: red;}
         #last { font-size: 10px;}
         td > a{color: darkgray; }
-        td > ul {color: greenyellow;}
+        td > ul {color: rgb(123, 213, 38);}
         h3 + p {color: gold;}
         h3 ~ p {color: navy;}
         p[class]{font-size: 40px;}
@@ -32,12 +40,19 @@
         .p-10{padding-left: 60px;}
         .bl-20{border-left: 5px solid blue;}
         .bgc {background-color: aliceblue;}
-    </style>
+        table{width: 920px;}
+        ul li {text-decoration: underline;}
+        ul{list-style-type:square;
+        list-style-image: url(./images/logo.png);}
+        .azem{background-color: aquamarine;
+        .container{ width: 500px; height: 500px; background-color: aquamarine; background-image: url(./images/nature.jpeg); }
+        .a{color: blue;}
+        </style>
 </head>
 <body>
-    <table width="920" align=center >
+    <table >
         <tr>
-            <th  class="th"><h1>Cheesecake</h1></th>
+            <th><h1 class="th">Cheesecake</h1></th>
         </tr>
         <tr>
             <td>Posted on <i>05.October.202/posted in"</i>/posted in <a href="https://www.thekitchn.com/how-to-make-perfect-cheesecake-recipe-cooking-lessons-from-the-kitchen-110760" target="_blank">Thekitchn</a></td>
@@ -45,7 +60,6 @@
                 <a href="./order.html" target="_blank">Order </a>
             </td>
         </tr>
-        <br><br>
         <tr>
             <td>
                 <img src="./images/cheesecake1.webp" alt="Cheesecake piece" height="250">
@@ -61,7 +75,7 @@
             </td>
         </tr>
         <tr>
-            <th align="left"> <h3 class="h30">Ingredients</h3></th>
+            <th class="th"> <h3 class="h30">Ingredients</h3></th>
         </tr>
         <tr>
             <td>
@@ -98,11 +112,15 @@
         </tr>
         <tr>
             <td>
-                <h3 align="center">CONTACT US</h3>
+                <h4 >CONTACT US</h4>
                 <p>Facebook - <a href="https://www.facebook.com/thekitchn" target="_blank">Thekitchn</a></p>
                 <p class="second">Instagram - <a href="https://www.intagram.com/thekitchn">Thekitchn</a></p>
                 <p>Location - </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11882.412481220792!2d21.462513994701496!3d41.87988466755141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541806241e56e1%3A0xdefaf9a0c7be84a2!2sGorno%20Kolichani!5e0!3m2!1sen!2smk!4v1664298975477!5m2!1sen!2smk" width="600" height="450" style="border:0; loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d47529.64967761252!2d21.471269!3d41.879885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541806241e56e1%3A0xdefaf9a0c7be84a2!2sGorno%20Kolichani!5e0!3m2!1sen!2smk!4v1664739162409!5m2!1sen!2smk" width="auto" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+                <a href="./photo.html" class="a">Photo</a>
+                <br><br>
+                <a href="./table.html" class="a">Tabela</a>
             </td>
         </tr>
     </table>
